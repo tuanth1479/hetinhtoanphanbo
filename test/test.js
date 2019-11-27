@@ -9,6 +9,6 @@ describe('GET /', function() {
 
 describe('GET /dev', function() {
   it('respond with dev', function(done) {
-    request(app).get('/').expect('hello dev', done);
+    request(app).get('/dev').expect('hello dev', done);
   });
 });
