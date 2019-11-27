@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/dev', function (req, res) {
-  res.send('hello d');
+  res.send('hello dev');
 });
 
 app.listen(process.env.PORT || 3000);
