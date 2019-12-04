@@ -12,3 +12,9 @@ describe('GET /dev', function() {
     request(app).get('/dev').expect('hello dev', done);
   });
 });
+
+describe('GET /tuan', function() {
+  it('respond with tuan', function(done) {
+    request(app).get('/tuan').expect('hello tuan', done);
+  });
+});
